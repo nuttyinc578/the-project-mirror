@@ -1,0 +1,36 @@
+﻿{
+  "name": "Project Mirror Dev Beta 1 Core",
+  "version": "1.0.0-beta1",
+  "sharedConfig": "config/project_mirror.json",
+  "roles": {
+    "ruby": "Main launcher and MSYS2-compatible process coordinator",
+    "node": "Local bridge server for GUI, telemetry, RAM alerts, tasks, and optimization requests",
+    "python": "AI optimization API and CLI",
+    "dotnet": "Console RAM menu, RAM limits, and alert fallback",
+    "swift": "GUI window, task manager, RAM controls, and notifications"
+  },
+  "endpoints": {
+    "health": "/health",
+    "config": "/api/config",
+    "ram": "/api/ram",
+    "alerts": "/api/alerts",
+    "tasks": "/api/tasks",
+    "endTask": "/api/tasks/end",
+    "runtime": "/api/runtime",
+    "optimize": "/api/optimize",
+    "bridge": "/api/bridge"
+  },
+  "commands": {
+    "rubyLauncher": "ruby launch_project_mirror.rb",
+    "rubyLauncherWithGui": "ruby launch_project_mirror.rb --gui",
+    "nodeServer": "node server/server.js",
+    "pythonApi": "python -m project_mirror_ai.server",
+    "dotnetMenu": "dotnet run --project src/dotnet/ProjectMirrorLauncher/ProjectMirrorLauncher.csproj",
+    "swiftGui": "swift run --package-path src/swift/ProjectMirrorGUI ProjectMirrorGUI"
+  },
+  "safety": {
+    "ramLimitType": "soft-limit",
+    "taskEndRequiresConfirm": "end-task",
+    "changesDriversOrRegistry": false
+  }
+}

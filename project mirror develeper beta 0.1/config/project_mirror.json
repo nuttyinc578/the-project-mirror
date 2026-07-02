@@ -1,0 +1,39 @@
+{
+  "name": "Project Mirror Dev Beta 1",
+  "version": "1.0.0-beta1",
+  "server": {
+    "host": "127.0.0.1",
+    "port": 4971
+  },
+  "aiApi": {
+    "host": "127.0.0.1",
+    "port": 4972
+  },
+  "runtime": {
+    "profile": "performance",
+    "ramLimitMb": 256,
+    "lowRamAlertMb": 128,
+    "pollSeconds": 5,
+    "msys2Compatible": true
+  },
+  "profiles": {
+    "quality": {
+      "targetFps": 60,
+      "videoCrf": 18,
+      "upscale": true,
+      "backgroundPriority": "normal"
+    },
+    "balanced": {
+      "targetFps": 60,
+      "videoCrf": 20,
+      "upscale": true,
+      "backgroundPriority": "below-normal"
+    },
+    "performance": {
+      "targetFps": 120,
+      "videoCrf": 23,
+      "upscale": false,
+      "backgroundPriority": "low"
+    }
+  }
+}

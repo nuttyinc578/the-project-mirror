@@ -1,0 +1,10 @@
+{
+  "name": "project-mirror-server",
+  "version": "1.0.0-beta1",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  }
+}

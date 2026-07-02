@@ -1,0 +1,14 @@
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\bin\Debug\net10.0\ProjectMirrorLauncher.exe
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\bin\Debug\net10.0\ProjectMirrorLauncher.deps.json
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\bin\Debug\net10.0\ProjectMirrorLauncher.runtimeconfig.json
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\bin\Debug\net10.0\ProjectMirrorLauncher.dll
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\bin\Debug\net10.0\ProjectMirrorLauncher.pdb
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\obj\Debug\net10.0\ProjectMirrorLauncher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\obj\Debug\net10.0\ProjectMirrorLauncher.AssemblyInfoInputs.cache
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\obj\Debug\net10.0\ProjectMirrorLauncher.AssemblyInfo.cs
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\obj\Debug\net10.0\ProjectMirrorLauncher.csproj.CoreCompileInputs.cache
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\obj\Debug\net10.0\ProjectMirrorLauncher.dll
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\obj\Debug\net10.0\refint\ProjectMirrorLauncher.dll
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\obj\Debug\net10.0\ProjectMirrorLauncher.pdb
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\obj\Debug\net10.0\ProjectMirrorLauncher.genruntimeconfig.cache
+C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\dotnet\ProjectMirrorLauncher\obj\Debug\net10.0\ref\ProjectMirrorLauncher.dll

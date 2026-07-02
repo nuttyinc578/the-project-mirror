@@ -1,0 +1,14 @@
+﻿{
+    "name":  "project-mirror-dev-beta-1",
+    "version":  "1.0.0-beta1",
+    "private":  true,
+    "description":  "Project Mirror Dev Beta 1 local AI optimizer scaffold.",
+    "scripts":  {
+                    "server":  "node server/server.js",
+                    "server:check":  "node --check server/server.js",
+                    "dotnet:build":  "dotnet build src/dotnet/ProjectMirrorLauncher/ProjectMirrorLauncher.csproj",
+                    "dotnet:run":  "dotnet run --project src/dotnet/ProjectMirrorLauncher/ProjectMirrorLauncher.csproj",
+                    "swift:build":  "swift build --package-path src/swift/ProjectMirrorGUI",
+                    "swift:run":  "swift run --package-path src/swift/ProjectMirrorGUI ProjectMirrorGUI"
+                }
+}

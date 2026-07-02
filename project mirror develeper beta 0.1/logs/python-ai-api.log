@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "C:\Users\caleb\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\caleb\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\python\project_mirror_ai\server.py", line 111, in <module>
+    main()
+  File "C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\src\python\project_mirror_ai\server.py", line 107, in main
+    server.serve_forever()
+  File "C:\Users\caleb\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 232, in serve_forever
+    ready = selector.select(poll_interval)
+  File "C:\Users\caleb\AppData\Local\Programs\Python\Python310\lib\selectors.py", line 324, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "C:\Users\caleb\AppData\Local\Programs\Python\Python310\lib\selectors.py", line 315, in _select
+    r, w, x = select.select(r, w, w, timeout)
+KeyboardInterrupt
+Project Mirror Dev Beta 1 AI API listening on http://127.0.0.1:4972
+Config: C:\Users\caleb\OneDrive\Documents\project mirror develeper beta 0.1\config\project_mirror.json
+[project-mirror-ai] 127.0.0.1 - "GET /health HTTP/1.1" 200 -
+[project-mirror-ai] 127.0.0.1 - "POST /optimize HTTP/1.1" 200 -
